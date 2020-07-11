@@ -1,0 +1,41 @@
+.contact-form-wrapper {
+    width: 500px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-color: black;
+    color: orange;
+    padding: 20px;
+
+    .contact-form {
+        input {
+            display: block;
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+    }
+
+    .button {
+        background-color: #551A8b;
+        color: orange;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    .error {
+        border: 2px solid red;
+    }
+
+    .disable-button {
+        pointer-events: none;
+        background-color: grey;
+        color: darkgrey;
+    }
+}

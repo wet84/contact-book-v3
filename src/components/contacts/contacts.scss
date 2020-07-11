@@ -1,0 +1,11 @@
+.contacts-list-wrapper {
+    max-height: 400px;
+    overflow: auto;
+    .contacts-list {
+        width: 100%;
+
+        th {
+            text-transform: uppercase;
+        }
+    }
+}

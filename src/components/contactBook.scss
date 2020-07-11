@@ -1,0 +1,23 @@
+header {
+    background-color: black;
+    color: orange;
+    padding: 5px;
+    margin-bottom: 20px;
+
+    h2 {
+        text-align: center;
+    }
+
+    .main-menu {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        padding-left: 0;
+
+        li {
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
